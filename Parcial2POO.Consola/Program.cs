@@ -1,4 +1,5 @@
-﻿using Parcial2POO.Entidades;
+﻿using Parcial2POO.Datos;
+using Parcial2POO.Entidades;
 using Parcial2POO.Entidades.Enum;
 using System;
 using System.Collections.Generic;
@@ -63,7 +64,7 @@ namespace Parcial2POO.Consola
             string equipoDatos = e2;
             Console.WriteLine(equipoDatos);
 
-
+            Serializador.GuardarJson("Equipo.json", e1.jugadores);
 
             Console.ReadLine();
         }

@@ -11,7 +11,7 @@ namespace Parcial2POO.Entidades
     {
         public static Deporte Deporte { get; set; }
         private DirectorTecnico directorTecnico;
-        private List<Jugador> jugadores;
+        public List<Jugador> jugadores;
         public string nombre;
 
         static Equipo()
